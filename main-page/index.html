@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Algo EduHub – Learn Without Limits</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="logo-mark">A+</span>
+        <span class="logo-text">Algo<em>EduHub</em></span>
+      </a>
+
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav__links" id="navLinks" role="navigation" aria-label="Main navigation">
+        <a href="#" class="nav__link active">Home</a>
+        <a href="../services-page/services.html" class="nav__link">Our Services</a>
+        <a href="#" class="nav__link">About Us</a>
+        <a href="#" class="nav__link nav__link--cta">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__bg-shapes" aria-hidden="true">
+        <div class="shape shape--a"></div>
+        <div class="shape shape--b"></div>
+        <div class="shape shape--c"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow">Personalised Online Tutoring · Ng . UK &amp; US</p>
+        <h1 class="hero__headline">
+          Every student<br />
+          <em>already knows</em><br />
+          how to learn.
+        </h1>
+        <p class="hero__sub">
+          Algo MathHub connects curious minds with expert tutors - building
+          confidence, closing gaps, and unlocking potential at every level.
+        </p>
+        <div class="hero__actions">
+          <a href="../services-page/services.html" class="btn btn--primary">Explore Our Services</a>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--ghost">Talk to Us</a>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="stat-card stat-card--a">
+          <span class="stat-card__num">500+</span>
+          <span class="stat-card__label">Students tutored</span>
+        </div>
+        <div class="stat-card stat-card--b">
+          <span class="stat-card__num">95%</span>
+          <span class="stat-card__label">Grade improvement</span>
+        </div>
+        <div class="chalkboard">
+          <svg viewBox="0 0 280 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="280" height="180" rx="8" fill="#1a3a2e"/>
+            <text x="50%" y="38%" dominant-baseline="middle" text-anchor="middle" font-family="Fraunces, serif" font-size="22" fill="#c8f5c8" opacity="0.9">y = mx + b</text>
+            <line x1="30" y1="110" x2="250" y2="110" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="6 3" opacity="0.5"/>
+            <circle cx="100" cy="85" r="5" fill="#4ade80" opacity="0.8"/>
+            <circle cx="160" cy="65" r="5" fill="#4ade80" opacity="0.8"/>
+            <circle cx="210" cy="50" r="5" fill="#4ade80" opacity="0.8"/>
+            <line x1="80" y1="97" x2="225" y2="42" stroke="#86efac" stroke-width="2" opacity="0.7"/>
+            <text x="30" y="155" font-family="DM Sans, sans-serif" font-size="11" fill="#86efac" opacity="0.6">Keep going — you're almost there ✓</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <section class="trust-bar">
+      <div class="trust-bar__inner">
+        <span>Trusted by families across</span>
+        <ul class="trust-bar__list" aria-label="Locations served">
+          <li>Lagos Island</li>
+          <li>US</li>
+          <li>Port Harcourt</li>
+          <li>UK</li>
+          <li>Online - Nationwide</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SERVICES PREVIEW -->
+    <section class="services" id="services">
+      <div class="section-header">
+        <p class="eyebrow">What We Offer</p>
+        <h2>Tutoring shaped<br /><em>around your child</em></h2>
+        <p class="section-sub">From primary school numeracy to JAMB/WAEC prep, working through the UK National Curriculum, preparing for GCSE, IGCSE, or A-Levels with AQA, Edexcel, or Cambridge, or targeting the SAT, ACT, and AP exams and university-level support - we meet students exactly where they are.</p>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card" data-index="0">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="var(--accent-pale)"/>
+              <path d="M14 24l6 6 14-14" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Primary &amp; Junior Secondary</h3>
+          <p>Building strong foundations in Maths, English, Basic Science, and Social Studies with patient, encouraging tutors.</p>
+          <a href="../services-page/services.html" class="card-link">Learn more →</a>
+        </article>
+
+        <article class="service-card" data-index="1">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="var(--accent-pale)"/>
+              <path d="M16 32V20l8-6 8 6v12" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="20" y="24" width="8" height="8" rx="1" stroke="var(--accent)" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Senior Secondary &amp; Exam Prep</h3>
+          <p>Targeted coaching for WAEC, NECO, and JAMB — covering all core science and art subjects with past-question practice.</p>
+          <a href="../services-page/services.html" class="card-link">Learn more →</a>
+        </article>
+
+        <article class="service-card" data-index="2">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="var(--accent-pale)"/>
+              <circle cx="24" cy="20" r="5" stroke="var(--accent)" stroke-width="2.5"/>
+              <path d="M14 34c0-5.523 4.477-10 10-10s10 4.477 10 10" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>University &amp; Post-Secondary</h3>
+          <p>One-on-one academic support for undergraduate courses, dissertations, research methods, and professional certifications.</p>
+          <a href="../services-page/services.html" class="card-link">Learn more →</a>
+        </article>
+
+        <article class="service-card" data-index="3">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="var(--accent-pale)"/>
+              <rect x="14" y="16" width="20" height="14" rx="2" stroke="var(--accent)" stroke-width="2.5"/>
+              <path d="M18 34l6 4 6-4" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Online &amp; Hybrid Learning</h3>
+          <p>Live interactive sessions via video — same quality, same care, no commute. Flexible scheduling around school and family.</p>
+          <a href="../services-page/services.html" class="card-link">Learn more →</a>
+        </article>
+      </div>
+
+      <div class="services__cta">
+        <a href="../services-page/services.html" class="btn btn--primary">See All Services</a>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works">
+      <div class="section-header">
+        <p class="eyebrow">The Process</p>
+        <h2>From first call<br /><em>to first breakthrough</em></h2>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <div class="step__body">
+            <h3>Tell us about your child</h3>
+            <p>Share their current level, challenges, and goals — no form is too long when it shapes a learning plan.</p>
+          </div>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <div class="step__body">
+            <h3>We match the right tutor</h3>
+            <p>Our coordinators pair students with tutors based on subject, personality, and learning style — not just availability.</p>
+          </div>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <div class="step__body">
+            <h3>Sessions begin — results follow</h3>
+            <p>Regular sessions, progress reports, and open communication with parents keep everyone aligned and moving forward.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="section-header">
+        <p class="eyebrow">What Parents Say</p>
+        <h2>Real families,<br /><em>real results</em></h2>
+      </div>
+
+      <div class="testimonials__track" id="testimonialTrack">
+        <blockquote class="testimonial">
+          <p>"My daughter went from failing Maths to scoring a B2 in WAEC. The tutor knew exactly how to explain things in a way that clicked for her."</p>
+          <footer>— Adaeze O., Parent · Lagos</footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"We were sceptical about online tutoring but Algo proved us wrong completely. My son is now confident in his Chemistry — something we never thought possible."</p>
+          <footer>— Emeka N., Parent · Abuja</footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"Flexible, reliable, and genuinely caring. The progress reports each week kept me informed without feeling overwhelmed. I recommend them to every parent I know."</p>
+          <footer>— Funmi A., Parent · Ibadan</footer>
+        </blockquote>
+      </div>
+
+      <div class="testimonials__dots" id="testimonialDots" role="tablist" aria-label="Testimonial navigation">
+        <button class="dot active" data-index="0" role="tab" aria-label="Testimonial 1" aria-selected="true"></button>
+        <button class="dot" data-index="1" role="tab" aria-label="Testimonial 2" aria-selected="false"></button>
+        <button class="dot" data-index="2" role="tab" aria-label="Testimonial 3" aria-selected="false"></button>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
+      <div class="cta-banner__inner">
+        <h2>Ready to start?<br /><em>So is your tutor.</em></h2>
+        <p>Book a free consultation and let us put together a learning plan — no commitment required.</p>
+        <a href="https://www.algoeduhub.com/contact" class="btn btn--light">Get in Touch Today</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="https://www.algoeduhub.com/" class="nav__logo">
+          <span class="logo-mark">A+</span>
+          <span class="logo-text">Algo<em>EduHub</em></span>
+        </a>
+        <p>Personalised tutoring for every stage of learning — rooted in Lagos, reaching Nigeria.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__contact">
+        <h4>Get In Touch</h4>
+        <p><a href="https://www.algoeduhub.com/contact">Book a free consultation</a></p>
+        <p>Lagos, Nigeria</p>
+        <div class="footer__socials">
+          <a href="https://www.algoeduhub.com/" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.algoeduhub.com/" aria-label="Twitter/X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://www.algoeduhub.com/" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> Algo EduHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

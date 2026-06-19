@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services — Algo EduHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="services.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="https://www.aigoeduhub.com/" class="nav__logo">
+        <span class="logo-mark">A+</span>
+        <span class="logo-text">Algo<em>EduHub</em></span>
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="navLinks" aria-label="Main navigation">
+        <a href="..//main-page/index.html" class="nav__link">Home</a>
+        <a href="../services-page/services.html" class="nav__link active">Our Services</a>
+        <a href="https://www.algoeduhub.com/about" class="nav__link">About Us</a>
+        <a href="https://www.algoeduhub.com/contact" class="nav__link nav__link--cta">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="page-hero__inner">
+        <p class="eyebrow">Our Services</p>
+        <h1>Every curriculum.<br /><em>Every student.</em></h1>
+        <p class="hero-sub">
+          From primary school numeracy to JAMB/WAEC prep, UK, US &amp; Canadian national curricula,
+          GCSE, IGCSE, A-Levels, SAT, ACT, AP exams, and university-level support —
+          we meet every student exactly where they are.
+        </p>
+
+        <!-- Filter tabs -->
+        <div class="filter-tabs" id="filterTabs" role="tablist" aria-label="Filter services by category">
+          <button class="tab active" data-filter="all" role="tab" aria-selected="true">All Services</button>
+          <button class="tab" data-filter="primary" role="tab" aria-selected="false">Primary</button>
+          <button class="tab" data-filter="secondary" role="tab" aria-selected="false">Secondary</button>
+          <button class="tab" data-filter="exams" role="tab" aria-selected="false">Exam Prep</button>
+          <button class="tab" data-filter="university" role="tab" aria-selected="false">University</button>
+          <button class="tab" data-filter="online" role="tab" aria-selected="false">Online</button>
+        </div>
+      </div>
+
+      <!-- Floating curriculum badges -->
+      <ul class="badge-cloud" aria-hidden="true">
+        <li class="badge b1">AQA</li>
+        <li class="badge b2">Edexcel</li>
+        <li class="badge b3">Cambridge</li>
+        <li class="badge b4">WAEC</li>
+        <li class="badge b5">SAT</li>
+        <li class="badge b6">ACT</li>
+        <li class="badge b7">IGCSE</li>
+        <li class="badge b8">A-Level</li>
+        <li class="badge b9">JAMB</li>
+        <li class="badge b10">AP</li>
+      </ul>
+    </section>
+
+    <!-- SERVICES GRID -->
+    <section class="services-section">
+      <div class="services-grid" id="servicesGrid">
+
+        <!-- 1. Primary -->
+        <article class="scard reveal" data-category="primary">
+          <div class="scard__top">
+            <div class="scard__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="22" fill="var(--accent-pale)"/>
+                <path d="M14 30V20l10-8 10 8v10" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="19" y="24" width="10" height="6" rx="1" stroke="var(--accent)" stroke-width="2"/>
+              </svg>
+            </div>
+            <span class="scard__tag">Primary</span>
+          </div>
+          <h2>Primary School Foundations</h2>
+          <p class="scard__desc">Building rock-solid skills in Numeracy, Literacy, Basic Science, and Reasoning for children in KS1–KS2 (UK), Grades 1–5 (US/Canada), and equivalent Nigerian primary levels.</p>
+          <ul class="scard__curricula">
+            <li>UK National Curriculum (KS1 &amp; KS2)</li>
+            <li>US Common Core (Grades 1–5)</li>
+            <li>Canadian Provincial Curricula</li>
+            <li>Nigerian Primary Curriculum</li>
+          </ul>
+          <div class="scard__subjects">
+            <span>Maths</span><span>English</span><span>Science</span><span>Reading</span><span>Writing</span>
+          </div>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--primary">Book a Session</a>
+        </article>
+
+        <!-- 2. Secondary / GCSE -->
+        <article class="scard reveal" data-category="secondary">
+          <div class="scard__top">
+            <div class="scard__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="22" fill="var(--accent-pale)"/>
+                <rect x="13" y="15" width="22" height="18" rx="2" stroke="var(--accent)" stroke-width="2.2"/>
+                <path d="M18 22h12M18 27h8" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="scard__tag">Secondary</span>
+          </div>
+          <h2>Junior &amp; Senior Secondary</h2>
+          <p class="scard__desc">Confident, curriculum-aligned tutoring for KS3–KS4 (UK), Grades 6–10 (US/Canada), and JSS–SSS levels — covering all core academic disciplines with personalised lesson plans.</p>
+          <ul class="scard__curricula">
+            <li>UK National Curriculum (KS3 &amp; KS4)</li>
+            <li>US Middle &amp; High School (Grades 6–10)</li>
+            <li>Canadian Secondary Programmes</li>
+            <li>Nigerian JSS &amp; SSS Curriculum</li>
+          </ul>
+          <div class="scard__subjects">
+            <span>Maths</span><span>English</span><span>Biology</span><span>Chemistry</span><span>Physics</span><span>History</span>
+          </div>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--primary">Book a Session</a>
+        </article>
+
+        <!-- 3. GCSE / IGCSE -->
+        <article class="scard reveal" data-category="exams">
+          <div class="scard__top">
+            <div class="scard__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="22" fill="var(--gold-pale)"/>
+                <path d="M24 12l3.09 6.26L34 19.27l-5 4.87 1.18 6.86L24 27.77l-6.18 3.23L19 24.14l-5-4.87 6.91-1.01L24 12z" stroke="var(--gold)" stroke-width="2" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <span class="scard__tag scard__tag--gold">Exam Prep</span>
+          </div>
+          <h2>GCSE &amp; IGCSE Preparation</h2>
+          <p class="scard__desc">Targeted, exam-board-specific preparation for Year 10–11 students (and international equivalents). We know the mark schemes inside-out and coach students to think the way examiners reward.</p>
+          <ul class="scard__curricula">
+            <li>AQA — all major subjects</li>
+            <li>Edexcel (Pearson) — GCSE &amp; IGCSE</li>
+            <li>Cambridge Assessment (CIE) IGCSE</li>
+            <li>OCR — GCSE</li>
+          </ul>
+          <div class="scard__subjects">
+            <span>Maths</span><span>English Lang &amp; Lit</span><span>Sciences (Triple &amp; Combined)</span><span>Geography</span><span>History</span><span>ICT</span>
+          </div>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--primary">Book a Session</a>
+        </article>
+
+        <!-- 4. A-Level -->
+        <article class="scard reveal" data-category="exams">
+          <div class="scard__top">
+            <div class="scard__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="22" fill="var(--gold-pale)"/>
+                <path d="M24 14l2 6h6l-5 3.6 1.9 5.9L24 26l-4.9 3.5 1.9-5.9L16 20h6z" stroke="var(--gold)" stroke-width="2" stroke-linejoin="round" fill="none"/>
+                <path d="M18 34h12" stroke="var(--gold)" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="scard__tag scard__tag--gold">Exam Prep</span>
+          </div>
+          <h2>A-Level &amp; AS-Level Preparation</h2>
+          <p class="scard__desc">Rigorous, subject-specialist coaching for Year 12–13 students. Whether applying to UK universities or overseas, our A-Level tutors are subject experts — many with first-class degrees in the subjects they teach.</p>
+          <ul class="scard__curricula">
+            <li>AQA A-Level</li>
+            <li>Edexcel A-Level &amp; IAL</li>
+            <li>Cambridge International A-Level (CIE)</li>
+            <li>OCR A-Level</li>
+          </ul>
+          <div class="scard__subjects">
+            <span>Maths &amp; Further Maths</span><span>Biology</span><span>Chemistry</span><span>Physics</span><span>Economics</span><span>Psychology</span><span>English</span>
+          </div>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--primary">Book a Session</a>
+        </article>
+
+        <!-- 5. JAMB / WAEC / NECO -->
+        <article class="scard reveal" data-category="exams">
+          <div class="scard__top">
+            <div class="scard__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="22" fill="var(--green-pale)"/>
+                <path d="M16 32l4-10 4 7 4-12 4 15" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <span class="scard__tag">Exam Prep</span>
+          </div>
+          <h2>JAMB, WAEC &amp; NECO Coaching</h2>
+          <p class="scard__desc">Intensive, past-question-driven coaching for Nigeria's most important school-leaving and university-entry examinations. We focus on time management, topic mastery, and the confidence to perform under pressure.</p>
+          <ul class="scard__curricula">
+            <li>JAMB UTME — all subject combinations</li>
+            <li>WAEC SSCE — May/June &amp; Nov/Dec</li>
+            <li>NECO SSCE — all subjects</li>
+            <li>Post-UTME screening support</li>
+          </ul>
+          <div class="scard__subjects">
+            <span>English Language</span><span>Mathematics</span><span>Biology</span><span>Chemistry</span><span>Physics</span><span>Economics</span><span>Lit-in-English</span>
+          </div>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--primary">Book a Session</a>
+        </article>
+
+        <!-- 6. SAT / ACT / AP -->
+        <article class="scard reveal" data-category="exams">
+          <div class="scard__top">
+            <div class="scard__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="22" fill="var(--gold-pale)"/>
+                <circle cx="24" cy="24" r="9" stroke="var(--gold)" stroke-width="2.2"/>
+                <path d="M24 15V12M24 36v-3M15 24h-3M36 24h-3" stroke="var(--gold)" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="scard__tag scard__tag--gold">Exam Prep</span>
+          </div>
+          <h2>SAT, ACT &amp; AP Exam Preparation</h2>
+          <p class="scard__desc">Strategy-first coaching for students targeting US colleges and universities. We go beyond content review — building test-taking strategy, pacing, and the specific skills each exam rewards most.</p>
+          <ul class="scard__curricula">
+            <li>SAT (Digital SAT) — Math &amp; Reading/Writing</li>
+            <li>ACT — all four sections</li>
+            <li>AP Exams — sciences, humanities, and more</li>
+            <li>PSAT / Pre-ACT preparation</li>
+          </ul>
+          <div class="scard__subjects">
+            <span>SAT Math</span><span>SAT Reading &amp; Writing</span><span>ACT English</span><span>ACT Science</span><span>AP Calculus</span><span>AP Biology</span><span>AP Literature</span>
+          </div>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--primary">Book a Session</a>
+        </article>
+
+        <!-- 7. Canadian Curriculum -->
+        <article class="scard reveal" data-category="secondary">
+          <div class="scard__top">
+            <div class="scard__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="22" fill="var(--accent-pale)"/>
+                <path d="M24 14c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10S29.523 14 24 14z" stroke="var(--accent)" stroke-width="2"/>
+                <path d="M14 24h20M24 14c-3 4-3 16 0 20M24 14c3 4 3 16 0 20" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="scard__tag">Secondary</span>
+          </div>
+          <h2>Canadian Curriculum Support</h2>
+          <p class="scard__desc">Province-specific tutoring aligned to Ontario, British Columbia, Alberta, and other Canadian curricula — for students from Grade 1 through Grade 12 and IB programmes.</p>
+          <ul class="scard__curricula">
+            <li>Ontario Curriculum (Grades 1–12)</li>
+            <li>BC (British Columbia) Curriculum</li>
+            <li>Alberta Programme of Studies</li>
+            <li>IB (International Baccalaureate) support</li>
+          </ul>
+          <div class="scard__subjects">
+            <span>Maths</span><span>Science</span><span>English</span><span>French</span><span>Social Studies</span><span>Physics</span>
+          </div>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--primary">Book a Session</a>
+        </article>
+
+        <!-- 8. University -->
+        <article class="scard reveal" data-category="university">
+          <div class="scard__top">
+            <div class="scard__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="22" fill="var(--accent-pale)"/>
+                <path d="M10 22l14-8 14 8-14 8-14-8z" stroke="var(--accent)" stroke-width="2.2" stroke-linejoin="round"/>
+                <path d="M18 26v6c0 2 2.686 4 6 4s6-2 6-4v-6" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round"/>
+                <path d="M38 22v8" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="scard__tag">University</span>
+          </div>
+          <h2>University &amp; Higher Education</h2>
+          <p class="scard__desc">Subject-specialist support for undergraduates and postgraduates — from first-year foundations to dissertation coaching. Whether you're at a UK Russell Group, a US university, a Canadian institution, or a Nigerian federal university, we have the right tutor.</p>
+          <ul class="scard__curricula">
+            <li>UK Russell Group &amp; all UK universities</li>
+            <li>US universities — coursework &amp; GPA support</li>
+            <li>Canadian undergraduate programmes</li>
+            <li>Nigerian federal &amp; state universities</li>
+          </ul>
+          <div class="scard__subjects">
+            <span>Engineering</span><span>Medicine &amp; Sciences</span><span>Law</span><span>Economics</span><span>Statistics</span><span>Dissertation</span><span>Research Methods</span>
+          </div>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--primary">Book a Session</a>
+        </article>
+
+        <!-- 9. Online / Hybrid -->
+        <article class="scard reveal" data-category="online">
+          <div class="scard__top">
+            <div class="scard__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="22" fill="var(--accent-pale)"/>
+                <rect x="12" y="15" width="24" height="16" rx="2" stroke="var(--accent)" stroke-width="2.2"/>
+                <path d="M18 35h12M24 31v4" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+                <path d="M18 23l4 3 8-6" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="scard__tag">Online</span>
+          </div>
+          <h2>Online &amp; Hybrid Tutoring</h2>
+          <p class="scard__desc">Live, interactive sessions via video — same rigour, same care, no commute. Available globally, with flexible scheduling designed around school timetables, time zones, and family life.</p>
+          <ul class="scard__curricula">
+            <li>Available for all curricula &amp; exam boards</li>
+            <li>Live 1-on-1 video sessions</li>
+            <li>Shared digital whiteboard &amp; resources</li>
+            <li>Session recordings on request</li>
+          </ul>
+          <div class="scard__subjects">
+            <span>All subjects available</span><span>Flexible time zones</span><span>UK • US • Canada • Nigeria</span>
+          </div>
+          <a href="https://www.algoeduhub.com/contact" class="btn btn--primary">Book a Session</a>
+        </article>
+
+      </div>
+
+      <!-- Empty state -->
+      <div class="empty-state" id="emptyState" hidden>
+        <p>No services match this filter. <button class="reset-link" id="resetFilter">Show all services.</button></p>
+      </div>
+    </section>
+
+    <!-- EXAM BOARD STRIP -->
+    <section class="boards-strip">
+      <div class="boards-strip__inner">
+        <p class="eyebrow">Exam Boards &amp; Curricula We Cover</p>
+        <div class="boards-grid">
+          <div class="board-item"><span class="board-name">AQA</span><span class="board-desc">GCSE &amp; A-Level</span></div>
+          <div class="board-item"><span class="board-name">Edexcel</span><span class="board-desc">GCSE, IGCSE &amp; A-Level</span></div>
+          <div class="board-item"><span class="board-name">Cambridge (CIE)</span><span class="board-desc">IGCSE &amp; International A-Level</span></div>
+          <div class="board-item"><span class="board-name">OCR</span><span class="board-desc">GCSE &amp; A-Level</span></div>
+          <div class="board-item"><span class="board-name">WAEC / NECO</span><span class="board-desc">SSCE Nigeria</span></div>
+          <div class="board-item"><span class="board-name">JAMB</span><span class="board-desc">UTME</span></div>
+          <div class="board-item"><span class="board-name">College Board</span><span class="board-desc">SAT &amp; AP</span></div>
+          <div class="board-item"><span class="board-name">ACT Inc.</span><span class="board-desc">ACT Exam</span></div>
+          <div class="board-item"><span class="board-name">IB</span><span class="board-desc">International Baccalaureate</span></div>
+          <div class="board-item"><span class="board-name">UK Nat. Curriculum</span><span class="board-desc">KS1 – KS5</span></div>
+          <div class="board-item"><span class="board-name">Common Core</span><span class="board-desc">US Grades K–12</span></div>
+          <div class="board-item"><span class="board-name">Canadian Provincial</span><span class="board-desc">ON • BC • AB</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+      <div class="cta-banner__inner">
+        <h2>Not sure which service<br /><em>fits your child?</em></h2>
+        <p>Book a free 20-minute consultation and we'll recommend the right plan — no commitment, no pressure.</p>
+        <a href="https://www.algoeduhub.com/contact" class="btn btn--light">Get Free Advice</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="https://www.algoeduhub.com/" class="nav__logo">
+          <span class="logo-mark">A+</span>
+          <span class="logo-text">Algo<em>EduHub</em></span>
+        </a>
+        <p>Personalised tutoring for every stage of learning — rooted in Lagos, reaching the world.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="https://www.algoeduhub.com/">Home</a></li>
+          <li><a href="../services-page/services.html">Our Services</a></li>
+          <li><a href="https://www.algoeduhub.com/about">About Us</a></li>
+          <li><a href="https://www.algoeduhub.com/contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <h4>Get In Touch</h4>
+        <p><a href="https://www.algoeduhub.com/contact">Book a free consultation</a></p>
+        <p>Lagos, Nigeria · Worldwide Online</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> Algo EduHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="services.js"></script>
+</body>
+</html>
