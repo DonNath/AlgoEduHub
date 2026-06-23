@@ -260,7 +260,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   padding: 0.3rem 0.75rem;
   border-radius: 100px;
   backdrop-filter: blur(4px);
-  animation: floatBadge 6s ease-in-out infinite;
+  animation: floatBadge 3s ease-in-out infinite;
 }
 /* Position each badge */
 .b1  { top: 12%; right: 18%; animation-delay: 0s; }

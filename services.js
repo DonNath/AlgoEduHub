@@ -1,5 +1,5 @@
 /* =============================================
-   DELPHI EDUHUB — services.js
+   ALGO EDUHUB — services.js
    ============================================= */
 
 'use strict';
